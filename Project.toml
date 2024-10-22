@@ -2,3 +2,4 @@ name = "SplitComplexNumbers"
 uuid = "2aaeee26-74d4-4395-a8a7-2c94eb819fb5"
 authors = ["Kumayl Vanat"]
 version = "0.1.0"
+repo = "https://github.com/KV2718/SplitComplexNumbers.jl"
