@@ -1,6 +1,6 @@
 module SplitComplexNumbers
 
-export SplitComplex, mod2
+export SplitComplex, mod2, j
 
 struct SplitComplex{T<:Real}
     x::T
