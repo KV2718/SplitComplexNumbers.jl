@@ -1,4 +1,4 @@
-Version 0.1.0
+Version 0.1.1
 
 This is a package which implements split-complex numbers in Julia.
 I have given a brief overview of how they work below but the Wikipedia article is more detailed: https://en.wikipedia.org/wiki/Split-complex_number
