@@ -27,6 +27,6 @@ $$(a + a j)(a - a j) = a^2 - a^2 = 0$$
 
 $$\frac{1}{a ± aj} = \frac{a ∓ aj}{(a ± aj)(a ∓ aj)} = \frac{a ∓ aj}{0}$$
 
-Division by zero is obviously problematic is in in part why split-compelx numbers are seldom applied in the sciences, as compared to complex numbers which are touted as being 'unreasonably effective'.
+Division by zero is obviously problematic is in in part why split-complex numbers are seldom applied in the sciences, as compared to complex numbers which are touted as being 'unreasonably effective'.
 
 We are able to develop a 'split-complex analysis' but the aforementioned problems cripple it greatly.
