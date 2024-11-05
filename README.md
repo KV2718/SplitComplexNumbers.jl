@@ -3,6 +3,21 @@ Version 0.1.2
 This is a package which implements split-complex numbers in Julia.
 I have given a brief overview of how they work below but the Wikipedia article is more detailed: https://en.wikipedia.org/wiki/Split-complex_number
 
+The package currently supports the following:
+- Basic arithmetic operations: `+`, `-`, `*`, `/` (and `^`)
+- Taking `real` and `imag`inary parts as well as overloading `reim` and `conj` from base Julia
+- `abs` and `angle` have also been overloaded
+- So have `exp` and `log` with conditions on the latter due to the somewhat problematic nature of split-complex numbers
+
+
+```jl
+const j = SplitComplex(0, 1)
+```
+
+This is the split-complex unit `j`, it is used in the same way as `im` is and should function in the same way.
+
+---
+
 Split-complex numbers are number of the form $a + bj$ where $j^2 = 1$ but $j \neq ±1$.
 Addition works as it would with complex numbers and multiplication is done by expanding brackets.
 Split-complex numbers have an equivalent 'Euler's Formula':
